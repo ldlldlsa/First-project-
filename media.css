@@ -1,0 +1,200 @@
+@media (max-width: 575px) { 
+/* home start */
+    .header .logo{
+
+        font-size: 20px;
+
+    }
+
+    .navbar-toggler-icon{
+        background-color: #1F7D53 !important;
+    }
+
+
+    .header ul {
+
+        display: flex;
+        align-items: center;
+
+
+    }
+    .main-content .main-info h1{
+padding-bottom: 30px;
+font-size: 35px;
+padding-inline:15px ;
+    }
+
+     .main-content .main-info p {
+font-size: 13px;
+padding-inline: 15px;
+line-height: 1.8 ;
+
+     }
+
+      .main-content .main-info .btn-home{
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 15px;
+
+      }
+
+      .main-content .main-info .btn-home a{
+
+        padding: 15px 60px;
+
+      }
+
+      /* home end */
+
+
+      /* about start */
+#about{
+    padding-inline: 20px;
+}
+
+#about .row h2{
+    font-size: 22px;
+}
+
+#about .row h3{
+    font-size: 25px;
+}
+
+#about .row h4{
+    font-size: 20px;
+}
+#about .row{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about .row p{
+
+    font-size: 14px;
+}
+
+#about .row .img-about{
+
+    display: block;
+    margin:15px auto;
+}
+
+
+
+
+#contact h2::before , 
+#about h2.title-ab::before,
+  #project .title-pr::before{
+content: '';
+position: absolute;
+top: 50%;
+left: 0;
+width: 70px;
+height: 5px;
+border-right: 20px solid red;
+background-color: #fff;
+
+}
+
+#contact h2::after ,
+ #about h2.title-ab::after,
+   #project .title-pr::after{
+content: '';
+position: absolute;
+top: 50%;
+right: 0;
+width: 70px;
+height: 5px;
+border-left: 20px solid red;
+background-color: #fff;
+
+}
+
+#about .row .img-about{
+
+    width: 350px;
+}
+
+      /* about end */
+
+
+/* project start */
+
+ #project  {
+
+    padding-inline: 20px;
+ }
+    #project h2{
+
+        font-size: 30px;
+    }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #1F7D53;
+padding: 10px;
+}
+
+
+/* project end */
+
+
+
+
+
+
+
+/* contact start */
+
+#contact{
+    padding-inline: 20px;
+}
+
+#contact h2{
+    font-size: 25px;
+}
+#contact .input-contact input , textarea{
+
+width: 350px ;
+border-radius: 8px;
+
+
+}
+
+
+
+
+
+
+/* contact end */
+
+
+
+
+
+ }
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+/* 
+// X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
