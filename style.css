@@ -32,9 +32,9 @@ overflow-x: hidden;
 
 .header .logo{
 
-width: 70px;
-height: 70px;
-border-radius: 50%;
+font-size: 25px ;
+font-weight: 700;
+color: var(--main-color) !important;
 
 }
 .active{
