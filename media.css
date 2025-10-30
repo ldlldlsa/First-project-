@@ -15,6 +15,9 @@ body{
 
 }
 
+
+
+
     .navbar-toggler-icon{
         background-color: #1F7D53 !important;
     }
@@ -28,13 +31,12 @@ body{
 
     }
     .main-content .main-info h1{
-padding-bottom: 30px;
-font-size: 35px;
+font-size: 25px;
 padding-inline:15px ;
     }
 
      .main-content .main-info p {
-font-size: 13px;
+font-size: 12px;
 padding-inline: 15px;
 line-height: 1.8 ;
 
@@ -60,11 +62,11 @@ line-height: 1.8 ;
 
       /* about start */
 #about{
-    padding-inline: 20px;
+    padding: 6rem 20px;
 }
 
 #about h2.title-ab {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #about .row h3{
@@ -82,6 +84,34 @@ line-height: 1.8 ;
     align-items: center;
 }
 
+
+#contact h2::before,
+#about h2.title-ab::before,
+#project .title-pr::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 40px;
+    height: 5px;
+    border-right: 20px solid red;
+    background-color: #fff;
+
+}
+
+#contact h2::after,
+#about h2.title-ab::after,
+#project .title-pr::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 40px;
+    height: 5px;
+    border-left: 20px solid red;
+    background-color: #fff;
+
+}
 
 #about .row p{
 
@@ -101,37 +131,9 @@ padding-top: 20px;
 
 
 
-#contact h2::before , 
-#about h2.title-ab::before,
-  #project .title-pr::before{
-content: '';
-position: absolute;
-top: 50%;
-left: 0;
-width: 70px;
-height: 5px;
-border-right: 20px solid red;
-background-color: #fff;
-
-}
-
-#contact h2::after ,
- #about h2.title-ab::after,
-   #project .title-pr::after{
-content: '';
-position: absolute;
-top: 50%;
-right: 0;
-width: 70px;
-height: 5px;
-border-left: 20px solid red;
-background-color: #fff;
-
-}
-
 #about .row .img-about{
 
-    width: 350px;
+    width: 300px;
 }
 
       /* about end */
@@ -145,7 +147,7 @@ background-color: #fff;
  }
     #project h2{
 
-        font-size: 30px;
+        font-size: 25px;
     }
 
 .carousel-control-prev-icon,
@@ -182,9 +184,8 @@ padding: 10px;
 
 #contact .input-contact input , textarea{
 
-width: 350px ;
+max-width: 250px ;
 border-radius: 8px;
-
 
 }
 
@@ -206,6 +207,9 @@ border-radius: 8px;
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+
+
+
  }
 
 /* // Medium devices (tablets, 768px and up) */

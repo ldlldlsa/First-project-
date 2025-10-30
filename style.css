@@ -18,7 +18,6 @@
 body {
 
     font-family: "Zalando Sans SemiExpanded", sans-serif;
-
     overflow-x: hidden;
 
 }
@@ -186,7 +185,7 @@ div.circle-home span {
 
 #about {
 
-    padding: 6rem 10px;
+    /* padding: 6rem 10px; */
     margin-bottom: 15px;
     background-color: var(--main-bg);
 
