@@ -185,7 +185,7 @@ div.circle-home span {
 
 #about {
 
-    /* padding: 6rem 10px; */
+    padding: 6rem 10px;
     margin-bottom: 15px;
     background-color: var(--main-bg);
 
@@ -392,6 +392,7 @@ textarea {
     outline: none;
     padding: 15px 10px;
     margin: 15px 0px;
+    border-radius: 8px;
 
 }
 

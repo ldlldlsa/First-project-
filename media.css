@@ -57,6 +57,14 @@ line-height: 1.8 ;
 
       }
 
+
+
+div.circle-home span{
+
+    background-color: red;
+}
+
+
       /* home end */
 
 
@@ -92,7 +100,7 @@ line-height: 1.8 ;
     position: absolute;
     top: 50%;
     left: 0;
-    width: 40px;
+    width: 70px;
     height: 5px;
     border-right: 20px solid red;
     background-color: #fff;
@@ -106,7 +114,7 @@ line-height: 1.8 ;
     position: absolute;
     top: 50%;
     right: 0;
-    width: 40px;
+    width: 70px;
     height: 5px;
     border-left: 20px solid red;
     background-color: #fff;
